@@ -651,7 +651,7 @@ config MSM_BCL_PERIPHERAL_CTL
 source "drivers/power/reset/Kconfig"
 
 config SMART_CHARGING_CONTROL
-	bool "smart charing"
+	bool "Tinno's Smart-Charging Control"
 	default n	
 	help
 	  Say Y here to enable smart charging control driver. 
